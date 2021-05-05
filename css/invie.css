@@ -400,11 +400,20 @@ input:focus, textarea:focus{
 
     .contacto {
         margin: auto;
+        display: block;
     }
+    .contacto a {
+        display: block;
+    }
+
     .formulario {
         display: block;
         margin: auto;
         width: 300px;
+    }
+
+    .sexo label {
+        display: block;
     }
 
     .intereses label {
@@ -414,6 +423,9 @@ input:focus, textarea:focus{
 
     .col1 {
        margin: 0; 
+    }
+    input[type="text"] {
+        margin-bottom: 20px;
     }
 
     input[type="text"],
